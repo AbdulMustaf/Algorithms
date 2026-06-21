@@ -7,5 +7,6 @@ def twoSum(numbers, target):
             return [savedElements[difference], i]
         savedElements[number] = i 
 
-answer = twoSum([1,5,3,4],3)
-print(answer)
+answer = twoSum([1,2,3,4],3)
+print(answer) # code check
+print("thought process needs to be documented.")
